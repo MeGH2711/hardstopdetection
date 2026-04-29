@@ -1,0 +1,19 @@
+## Sample Run
+
+python clusterframestovideos_main.py `
+  --labels_dir ".\ModifiedAUDataset\labels" `
+  --images_dir ".\ModifiedAUDataset\images" `
+  --output_dir ".\outputs" `
+  --sim_threshold 0.22 `
+  --class_aware `
+  --max_frames 500
+
+## Complete Run
+
+python clusterframestovideos_main.py `
+  --labels_dir ".\ModifiedAUDataset\labels" `
+  --images_dir ".\ModifiedAUDataset\images" `
+  --output_dir ".\outputs" `
+  --sim_threshold 0.22 `
+  --class_aware `
+  --export_cluster_dirs
